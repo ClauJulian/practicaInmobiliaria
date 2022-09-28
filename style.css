@@ -1,0 +1,277 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+}
+/**/
+/* -------- Header ---------- */
+header {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    height: 100vh;
+
+    color:whitesmoke;
+    padding:2% 10%;
+}
+a {
+    text-decoration: unset;
+    color:unset;
+}
+.headerContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.headerLineaUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuPrincipal {
+    padding-left: 10px;
+}
+/* ----------- Nosotros ------------ */
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:2% 10%;
+}
+.nosotros h1{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.sectionNosotros {
+    display: flex;
+    flex-direction: row;
+}
+.infoNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width: 33%;
+}
+.infoNosotros h1{
+    margin-bottom:20px;
+    font-weight: 400;
+}
+.infoNosotros p{
+    padding:0px 10px;
+}
+.imgNosotros{
+    margin-bottom:20px;
+    height: 60px;
+}
+/* -------- Main Index -------- */
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+
+    padding:2% 10%;
+}
+.mainIndex h1{
+    margin-bottom: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.cajaIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 2vh;
+}
+.cajaProp {
+    background-color:whitesmoke;
+    border: 1px lightgray solid;
+    width: 32%;
+}
+.imgProp{
+    width: 100%;
+}
+.propiedad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1vw;
+    
+}
+.tituloProp {
+    margin: 2vh 0vh;
+}
+.descripProp {
+    margin-bottom: 2%;
+}
+.valorProp {
+    margin-bottom: 2%;
+    color:darkgreen;
+}
+.boxAmbiente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 0 2vw 2vh 2vw;
+}
+.ambiente {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    text-decoration: unset;
+    width: 5vw;
+}
+.vectorAmbiente {
+    height: 2vw;
+}
+.buttonProp {
+    border: none;
+    background-color: darkorange;
+    color:white;
+    width: 90%;
+    align-self: center;
+}
+.buttonTodas {
+    align-self:flex-end;
+    border:none;
+    background-color: limegreen;
+    color:white;
+    width:fit-content;
+    padding: 0.2em;
+}
+/* ----------- Encuentra Tu Casa ------------ */
+.encuentraTuCasa {
+    background-image: url(img/encuentra.jpg) ;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    margin-bottom: 20px;
+    padding:4vh 10%;
+    height: 40vh;
+
+    color:white;
+}
+.encuentra1{
+    margin-bottom: 6vh;
+}
+.encuentra2{
+    margin-bottom: 6vh;
+    height: 5vh;
+    padding: 1vh;
+    width: fit-content;
+    background-color: darkorange;
+    border: none;
+    color: whitesmoke;
+}
+/* ----------- Blog Testimoniales ------------ */
+.blogTestimoniales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    padding:4vh 10%;
+}
+/* Testimoniales */
+.cajaBlog {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.cajaBlog h1{
+    margin-bottom: 3vh;
+    text-align: center;
+}
+.notaBlog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 3vh;
+}
+.notaBlog img {
+    width: 30%;
+}
+.notaBlog div{
+    padding: 0vh 2vh;
+}
+.infoNotaBlog h4 {
+    margin-bottom: 1vh;
+}
+.line {
+    border: 2px solid green;
+    margin-bottom: 2vh;
+    width: 8vw;
+}
+.fechaBlog {
+    margin-bottom: 2vh;
+}
+.textoBlog {
+    line-height: 1.6;
+}
+.date, .blogBy {
+    color: darkorange;
+}
+
+/* Testimoniales */
+.cajaTestimoniales {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.cajaTestimoniales h1{
+    margin-bottom: 3vh;
+    text-align: center;
+}
+.testimonial{
+    display: flex;
+    align-items: flex-start;
+ 
+    background-color: limegreen;
+    border-radius:5%;
+    
+    height: 35vh;
+    padding:4vh;
+   
+    color:whitesmoke;
+    line-height: 1.6;
+}
+.comilla {
+    flex: 1;
+    display: flex;
+
+    width: 3vw;
+}
+.textoTestimonial {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1vw;
+}
+.autorBlog {
+    align-self: flex-end;
+    margin: 3vh 0vh;
+}
+
+
+
+/* ----------- Footer ------------ */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgb(52, 52, 52);
+    color: whitesmoke;
+
+    padding:4vh 10%;
+}
